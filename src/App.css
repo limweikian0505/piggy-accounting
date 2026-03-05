@@ -1,0 +1,42 @@
+.app {
+    background-color: #FFC0CB; /* Light pink for the background */
+    color: #333; /* Dark text for contrast */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.app:hover {
+    background-color: #FFB6C1; /* Slightly darker pink on hover */
+}
+
+.button {
+    background-color: #FF69B4; /* Hot pink for buttons */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #FF1493; /* Deeper pink on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .app {
+        padding: 10px;
+    }
+    .button {
+        width: 100%;
+        padding: 15px;
+    }
+}
